@@ -83,17 +83,17 @@ export default function MainPage() {
                     exceptional applications.
                   </p>
                   <p>
-                    Currently, my favorite front end framework is Angular, but I
-                    also like to use React.
+                    Currently, my favorite front end framework is React, but I
+                    also like to use Angular.
                   </p>
                   <p>
                     My abilities are currently being used at{" "}
                     <a
-                      href="https://www.wizeline.com/"
+                      href="https://www.brightcove.com/en"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Wizeline
+                      Brightcove
                     </a>
                     .
                   </p>
@@ -109,9 +109,10 @@ export default function MainPage() {
                   <div className="about-left">
                     <p className="about-bio">
                       Hello there! I'm Giovanna Ponce, a passionate software
-                      engineer currently working at Wizeline, where I thrive on
-                      tackling diverse projects for multiple clients. Before
-                      joining Wizeline, I honed my skills as a front-end
+                      engineer currently working at Brightcove, where I thrive working on the company site
+                      re-design and maintenance.
+                      Before joining Brightcove, I was part of a consultancy company called Wizeline, 
+                      but even before that I honed my skills as a front-end
                       developer in a dynamic startup environment. My journey in
                       the tech world began in 2019 when I embarked on an
                       exciting adventure with the{" "}
@@ -133,8 +134,12 @@ export default function MainPage() {
                       recently:
                     </p>
                     <ul className="about-list">
-                      <li>Angular 14</li>
+                      <li>NextJS</li>
+                      <li>Contentful CMS</li>
                       <li>React.js</li>
+                      <li>Angular 14</li>
+                      <li>ARC XP CMS</li>
+                      <li>AWS</li>
                       <li>Jest</li>
                       <li>Node.js</li>
                       <li>HTML5</li>

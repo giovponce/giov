@@ -58,12 +58,42 @@ export default function BasicTabs() {
           scrollButtons
           allowScrollButtonsMobile
         >
-          <Tab label="Wizeline" {...a11yProps(0)} />
-          <Tab label="Neon Domain" {...a11yProps(1)} />
-          <Tab label="Laboratoria" {...a11yProps(2)} />
+          <Tab label="Brightcove" {...a11yProps(0)} />
+          <Tab label="Wizeline" {...a11yProps(1)} />
+          <Tab label="Neon Domain" {...a11yProps(2)} />
+          <Tab label="Laboratoria" {...a11yProps(3)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
+        <div>
+          <p>
+            <p className="job-title">Web Developer </p>
+            <a
+              href="https://www.brightcove.com/en"
+              rel="noreferrer"
+              target="_blank"
+            >
+              @Brightcove
+            </a>
+          </p>
+          <p class="smaller">Apr 2024 - Present</p>
+          <ul className="ul-list">
+            <li>
+              Developed and maintained the Brightcove.com website, ensuring a responsive and user-friendly design.
+            </li>
+            <li>
+              Built and optimized React components and pages, focusing on performance, accessibility, and SEO best practices.
+            </li>
+            <li>Integrated Contentful as a headless CMS to manage and deliver content efficiently across the site..</li>
+            <li>
+              Developing with technologies such as NextJS, ReactJS,
+              Git, HTML5, ES6, Styled Components, Node.js, and
+              constantly learning new...
+            </li>
+          </ul>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={1}>
         <div>
           <p>
             <p className="job-title">Software Engineer </p>
@@ -72,10 +102,10 @@ export default function BasicTabs() {
               rel="noreferrer"
               target="_blank"
             >
-              @ Wizeline
+              @Wizeline
             </a>
           </p>
-          <p class="smaller">Jan 2022 - Present</p>
+          <p class="smaller">Jan 2022 - Apr 2024</p>
           <ul className="ul-list">
             <li>
               Actively participating in the development process throughout the
@@ -94,12 +124,12 @@ export default function BasicTabs() {
           </ul>
         </div>
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={2}>
         <div>
           <p>
             <p className="job-title">Front End Developer </p>
             <a href="https://neondomain.com/" rel="noreferrer" target="_blank">
-              @ Neon Domain
+              @Neon Domain
             </a>
           </p>
           <p className="smaller">May 2020 - December 2021</p>
@@ -123,7 +153,7 @@ export default function BasicTabs() {
           </ul>
         </div>
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={3}>
         <div>
           <p>
             <p className="job-title">Front End Developer Bootcamp </p>
@@ -132,7 +162,7 @@ export default function BasicTabs() {
               rel="noreferrer"
               target="_blank"
             >
-              @ Laboratoria
+              @Laboratoria
             </a>
           </p>
           <p className="smaller">October 2019 - May 2020</p>
