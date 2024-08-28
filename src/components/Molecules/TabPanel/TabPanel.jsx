@@ -76,7 +76,7 @@ export default function BasicTabs() {
               @Brightcove
             </a>
           </p>
-          <p class="smaller">Apr 2024 - Present</p>
+          <p class="smaller">Apr 2024 - Aug 2024</p>
           <ul className="ul-list">
             <li>
               Developed and maintained the Brightcove.com website, ensuring a responsive and user-friendly design.
