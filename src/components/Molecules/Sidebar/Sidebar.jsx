@@ -13,7 +13,7 @@ export default function Sidebar() {
       <div className="left-sidebar">
         <div className="left-sidebar-icons">
           <a
-            href="https://github.com/giovsteph"
+            href="https://github.com/giovponce"
             target="_blank"
             rel="noreferrer"
             data-testid="github-link"

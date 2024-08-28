@@ -25,7 +25,7 @@ export default function Footer() {
         <div>
           <div className="footer-icons">
             <a
-              href="https://github.com/giovsteph"
+              href="https://github.com/giovponce"
               target="_blank"
               rel="noreferrer"
               data-testid="github-link"
@@ -57,7 +57,7 @@ export default function Footer() {
               <Mail color={primaryColor} size="25" />
             </a>
           </div>
-          <Link href="https://github.com/giovsteph/giov" animated>
+          <Link href="https://github.com/giovponce/giov" animated>
             Built by Giovanna Ponce <Branch color="#924DF9" size="15" />
           </Link>
           <br />
@@ -74,7 +74,7 @@ export default function Footer() {
     return (
       <div className="footer">
         <div>
-          <Link href="https://github.com/giovsteph/giov" animated>
+          <Link href="https://github.com/giovponce/giov" animated>
             Built by Giovanna Ponce <Branch color="#924DF9" size="15" />
           </Link>
           <br />

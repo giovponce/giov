@@ -21,7 +21,7 @@ export default function MainPage() {
         "The visual discovery engine for people who enjoy DIY. Pinterest based social network, whose main purpose is to help users discover recipes, crafting inspiration, home hacks and more ideas to try.",
       picture: "https://i.ibb.co/rpf4dfR/Screenshot-2023-06-25-at-20-32-26.png",
       technologies: ["React", "HTML5/CSS3", "Firebase"],
-      githubLink: "https://github.com/giovsteph/DIYers",
+      githubLink: "https://github.com/giovponce/DIYers",
       projectLink: "https://laboratoriadiyers.firebaseapp.com/#/signIn",
     },
     {
@@ -31,7 +31,7 @@ export default function MainPage() {
         "This project allows you to create a QR Code with text or an url and download it in a PNG format. This project uses the library react-qr-code.",
       picture: "https://i.ibb.co/L174Rvn/Screenshot-2023-06-26-at-14-58-54.png",
       technologies: ["React", "HTML5/CSS3", "Firebase", "Jest"],
-      githubLink: "https://github.com/giovsteph/qr-generator",
+      githubLink: "https://github.com/giovponce/qr-generator",
       projectLink: "https://qr-generator-df60a.web.app/",
     },
     {
@@ -41,7 +41,7 @@ export default function MainPage() {
         "Bleiben-Note is German for 'Remember-Note', which takes us back to our signature phrase, 'The app that remembers for you'. Simple to-do app with login features.",
       picture: "https://i.ibb.co/Y8xJ7sS/Screenshot-2023-06-26-at-15-06-23.png",
       technologies: ["React", "HTML5/CSS3", "Firebase", "Jest"],
-      githubLink: "https://github.com/giovsteph/Bleiben-Note",
+      githubLink: "https://github.com/giovponce/Bleiben-Note",
       projectLink: "https://bleiben-note.web.app/",
     },
   ];
