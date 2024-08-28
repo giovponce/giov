@@ -91,7 +91,7 @@ const Header = () => {
               </li>
               <li className="mobile-nav-item">
                 <a
-                  href="https://drive.google.com/file/d/1-3EhEKSeIaHHqvsnVq328pezad4UmqVl/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1kbMpqDSUGKNUW9FEasqgsb9D4HTEBgY7/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
