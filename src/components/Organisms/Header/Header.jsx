@@ -91,7 +91,7 @@ const Header = () => {
               </li>
               <li className="mobile-nav-item">
                 <a
-                  href="https://drive.google.com/file/d/1oLm874-VqCVi5qSKXXSZuy4UvUmiRkXN/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1OTwkfQo3q3GfPHWeusfYoqAAuwSr-ImK/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -130,7 +130,7 @@ const Header = () => {
           </ul>
           <div className="btnContainer">
             <a
-              href="https://drive.google.com/file/d/1oLm874-VqCVi5qSKXXSZuy4UvUmiRkXN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OTwkfQo3q3GfPHWeusfYoqAAuwSr-ImK/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
