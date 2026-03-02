@@ -4,7 +4,7 @@ import GitHub from "../../../assets/icons/github";
 import ExternalLink from "../../../assets/icons/external-link";
 
 export default function Card({ projectData }) {
-  const primaryColor = "#924DF9";
+  const primaryColor = "#52B788";
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 

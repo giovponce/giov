@@ -89,11 +89,11 @@ export default function MainPage() {
                   <p>
                     My abilities are currently being used at{" "}
                     <a
-                      href="https://www.brightcove.com/en"
+                      href="https://www.ibm.com"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      Brightcove
+                      IBM
                     </a>
                     .
                   </p>
@@ -109,13 +109,12 @@ export default function MainPage() {
                   <div className="about-left">
                     <p className="about-bio">
                       Hello there! I'm Giovanna Ponce, a passionate software
-                      engineer currently working at Brightcove, where I thrive working on the company site
-                      re-design and maintenance.
-                      Before joining Brightcove, I was part of a consultancy company called Wizeline, 
-                      but even before that I honed my skills as a front-end
-                      developer in a dynamic startup environment. My journey in
-                      the tech world began in 2019 when I embarked on an
-                      exciting adventure with the{" "}
+                      engineer currently working at IBM, where I contribute to
+                      building modular, reusable components for enterprise-scale
+                      applications. Before IBM, I worked at Brightcove and
+                      Wizeline, where I honed my skills across a wide range of
+                      front-end technologies. My journey in the tech world began
+                      in 2019 when I embarked on an exciting adventure with the{" "}
                       <a
                         href="https://www.laboratoria.la/"
                         target="_blank"
@@ -124,28 +123,28 @@ export default function MainPage() {
                         Laboratoria
                       </a>{" "}
                       bootcamp. Since then, I've been actively leveraging my
-                      expertise in Angular, React, and associated technologies
-                      to craft remarkable digital solutions. Let's embark on a
-                      journey together, where we can bring your ideas to life in
-                      the most innovative and impactful ways!
+                      expertise in React, TypeScript, Angular, and associated
+                      technologies to craft remarkable digital solutions. Let's
+                      embark on a journey together, where we can bring your
+                      ideas to life in the most innovative and impactful ways!
                     </p>
                     <p className="about-techlist">
                       Here are a few technologies I’ve been working with
                       recently:
                     </p>
                     <ul className="about-list">
-                      <li>NextJS</li>
-                      <li>Contentful CMS</li>
                       <li>React.js</li>
-                      <li>Angular 14</li>
-                      <li>ARC XP CMS</li>
-                      <li>AWS</li>
+                      <li>TypeScript</li>
+                      <li>Next.js</li>
+                      <li>Angular</li>
+                      <li>Tailwind CSS</li>
+                      <li>Styled Components</li>
+                      <li>Playwright</li>
                       <li>Jest</li>
                       <li>Node.js</li>
-                      <li>HTML5</li>
-                      <li>CSS3</li>
+                      <li>HTML5 / CSS3</li>
                       <li>SASS</li>
-                      <li>Jasmine</li>
+                      <li>REST APIs</li>
                     </ul>
                   </div>
                   <div className="about-right">

@@ -9,7 +9,7 @@ import Mail from "../../../assets/icons/mail";
 
 export default function Footer() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const primaryColor = "#924DF9";
+  const primaryColor = "#52B788";
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
@@ -58,7 +58,7 @@ export default function Footer() {
             </a>
           </div>
           <Link href="https://github.com/giovponce/giov" animated>
-            Built by Giovanna Ponce <Branch color="#924DF9" size="15" />
+            Built by Giovanna Ponce <Branch color={primaryColor} size="15" />
           </Link>
           <br />
           <span>Based on the design by </span>
@@ -75,7 +75,7 @@ export default function Footer() {
       <div className="footer">
         <div>
           <Link href="https://github.com/giovponce/giov" animated>
-            Built by Giovanna Ponce <Branch color="#924DF9" size="15" />
+            Built by Giovanna Ponce <Branch color={primaryColor} size="15" />
           </Link>
           <br />
           <span>Based on the design by </span>

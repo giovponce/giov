@@ -58,13 +58,54 @@ export default function BasicTabs() {
           scrollButtons
           allowScrollButtonsMobile
         >
-          <Tab label="Brightcove" {...a11yProps(0)} />
-          <Tab label="Wizeline" {...a11yProps(1)} />
-          <Tab label="Neon Domain" {...a11yProps(2)} />
-          <Tab label="Laboratoria" {...a11yProps(3)} />
+          <Tab label="IBM" {...a11yProps(0)} />
+          <Tab label="Brightcove" {...a11yProps(1)} />
+          <Tab label="Wizeline" {...a11yProps(2)} />
+          <Tab label="Neon Domain" {...a11yProps(3)} />
+          <Tab label="Laboratoria" {...a11yProps(4)} />
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}>
+        <div>
+          <p>
+            <p className="job-title">Applications Developer </p>
+            <a
+              href="https://www.ibm.com"
+              rel="noreferrer"
+              target="_blank"
+            >
+              @IBM
+            </a>
+          </p>
+          <p className="smaller">Nov 2024 - Present</p>
+          <ul className="ul-list">
+            <li>
+              Contributed to the creation of 30+ modular, reusable React
+              components, wired to backend services through typed APIs and
+              shared data contracts.
+            </li>
+            <li>
+              Contributed to an enterprise-scale initiative with $0.59B+ USD in
+              first-year revenue impact, focusing on frontend reliability and
+              user experience in high-traffic environments.
+            </li>
+            <li>
+              Partnered with cross-functional teams to deliver features using
+              React, TypeScript, and Tailwind CSS.
+            </li>
+            <li>
+              Supported revenue-driving product customization flows involving
+              dynamic measurements, validation rules, and pricing calculations.
+            </li>
+            <li>
+              Collaborated closely with product, design, and backend teams to
+              translate business requirements into reliable, maintainable
+              application features.
+            </li>
+          </ul>
+        </div>
+      </TabPanel>
+      <TabPanel value={value} index={1}>
         <div>
           <p>
             <p className="job-title">Web Developer </p>
@@ -76,27 +117,31 @@ export default function BasicTabs() {
               @Brightcove
             </a>
           </p>
-          <p class="smaller">Apr 2024 - Aug 2024</p>
+          <p className="smaller">Apr 2024 - Aug 2024</p>
           <ul className="ul-list">
             <li>
-              Developed and maintained the Brightcove.com website, ensuring a responsive and user-friendly design.
+              Spearheaded the migration from Gatsby to React and Next.js and the
+              development of accessible features in the application.
             </li>
             <li>
-              Built and optimized React components and pages, focusing on performance, accessibility, and SEO best practices.
+              Identified key areas for improvement and fixed the three major
+              causes of navigation issues impacting users.
             </li>
-            <li>Integrated Contentful as a headless CMS to manage and deliver content efficiently across the site..</li>
             <li>
-              Developing with technologies such as NextJS, ReactJS,
-              Git, HTML5, ES6, Styled Components, Node.js, and
-              constantly learning new...
+              Integrated Contentful for streamlined content management to
+              implement innovative features and optimize user experience.
+            </li>
+            <li>
+              Collaborated and worked with technologies like Vercel, Styled
+              Components, and AWS.
             </li>
           </ul>
         </div>
       </TabPanel>
-      <TabPanel value={value} index={1}>
+      <TabPanel value={value} index={2}>
         <div>
           <p>
-            <p className="job-title">Software Engineer </p>
+            <p className="job-title">Software Engineer II </p>
             <a
               href="https://www.wizeline.com/"
               rel="noreferrer"
@@ -105,26 +150,26 @@ export default function BasicTabs() {
               @Wizeline
             </a>
           </p>
-          <p class="smaller">Jan 2022 - Apr 2024</p>
+          <p className="smaller">Jan 2022 - Apr 2024</p>
           <ul className="ul-list">
             <li>
-              Actively participating in the development process throughout the
-              software lifecycle using Scrum and Agile methodologies.
+              Actively engaged in the software development lifecycle utilizing
+              Scrum and Agile methodologies, ensuring timely delivery of
+              high-quality components.
             </li>
             <li>
-              Analysis of UX and design requirements and transforming it into
-              functional components.
+              Collaborated on multiple projects, analyzing UX and design
+              requirements and transforming them into functional components while
+              debugging and optimizing applications.
             </li>
-            <li>Checking for errors and debugging websites.</li>
             <li>
-              Developing with technologies such as Angular, ReactJS, Redux,
-              Sass, REST, Git, HTML5, ES6, Bootstrap, Materialize, Node.js, and
-              constantly learning new...
+              Developed with Angular, React, React Native, and ARC XP across
+              diverse client engagements.
             </li>
           </ul>
         </div>
       </TabPanel>
-      <TabPanel value={value} index={2}>
+      <TabPanel value={value} index={3}>
         <div>
           <p>
             <p className="job-title">Front End Developer </p>
@@ -132,28 +177,22 @@ export default function BasicTabs() {
               @Neon Domain
             </a>
           </p>
-          <p className="smaller">May 2020 - December 2021</p>
+          <p className="smaller">May 2020 - Dec 2021</p>
           <ul className="ul-list">
             <li>
-              Development and implementation of software solutions based on
-              client's requirements.
+              Developed and implemented tailored software solutions based on
+              client requirements, focusing on UX/UI enhancements and responsive
+              design for mobile devices.
             </li>
             <li>
-              Modifying and making changes according to client’s requirements.
-            </li>
-            <li>Checking for errors and debugging websites</li>
-            <li>
-              Improving existing design based on UX/UI principles and
-              implementing responsive design for mobile devices.
-            </li>
-            <li>
-              Developing with technologies such as Angular, Sass, REST, Git,
-              HTML5, ES6, Bootstrap, etc.
+              Conducted thorough error checking and debugging, leveraging
+              technologies like Angular, Sass, REST APIs, and Git to deliver
+              robust, user-friendly applications.
             </li>
           </ul>
         </div>
       </TabPanel>
-      <TabPanel value={value} index={3}>
+      <TabPanel value={value} index={4}>
         <div>
           <p>
             <p className="job-title">Front End Developer Bootcamp </p>
@@ -165,13 +204,13 @@ export default function BasicTabs() {
               @Laboratoria
             </a>
           </p>
-          <p className="smaller">October 2019 - May 2020</p>
+          <p className="smaller">Oct 2019 - May 2020</p>
           <ul className="ul-list">
             <li>Simulated work environment.</li>
-            <li>Learning TDD using Jest and React-Testing-Library.</li>
+            <li>Learning TDD using Jest and React Testing Library.</li>
             <li>
               Learning the basics of Agile, Scrum and Kanban methodologies,
-              while applying it on the projects.
+              while applying them on projects.
             </li>
             <li>
               Developing with technologies such as ReactJS, HTML5, CSS3,
