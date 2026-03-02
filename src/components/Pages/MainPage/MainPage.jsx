@@ -5,6 +5,10 @@ import Header from "../../Organisms/Header/Header";
 import Footer from "../../Molecules/Footer/Footer";
 import Sidebar from "../../Molecules/Sidebar/Sidebar";
 import ProfilePictureFiltered from "../../../assets/photos/profile-pic-filter.jpg";
+import DiyersImg from "../../../assets/photos/diyers.png";
+import Dc3GeneratorImg from "../../../assets/photos/dc3-generator.png";
+import QrCodeGeneratorImg from "../../../assets/photos/qr-code-generator.png";
+import BleibenNoteImg from "../../../assets/photos/bleiben-note.png";
 import TabPanel from "../../Molecules/TabPanel/TabPanel";
 import Card from "../../Molecules/Card/Card";
 import Button from "../../Atoms/Button/Button";
@@ -19,27 +23,37 @@ export default function MainPage() {
       title: "DIYers",
       description:
         "The visual discovery engine for people who enjoy DIY. Pinterest based social network, whose main purpose is to help users discover recipes, crafting inspiration, home hacks and more ideas to try.",
-      picture: "https://i.ibb.co/rpf4dfR/Screenshot-2023-06-25-at-20-32-26.png",
+      picture: DiyersImg,
       technologies: ["React", "HTML5/CSS3", "Firebase"],
       githubLink: "https://github.com/giovponce/DIYers",
       projectLink: "https://laboratoriadiyers.firebaseapp.com/#/signIn",
     },
     {
       id: "2",
+      title: "DC3 Generator",
+      description:
+        "A small web app to generate DC3 Word documents (.docx) from course, company and workers data, with a React + Vite frontend and an Express backend.",
+      picture: Dc3GeneratorImg,
+      technologies: ["React", "TypeScript", "Node.js", "Express", "Render"],
+      githubLink: "https://github.com/giovponce/generic-dc3-generator",
+      projectLink: "https://generic-dc3-generator.onrender.com",
+    },
+    {
+      id: "3",
       title: "QR Code Generator",
       description:
         "This project allows you to create a QR Code with text or an url and download it in a PNG format. This project uses the library react-qr-code.",
-      picture: "https://i.ibb.co/L174Rvn/Screenshot-2023-06-26-at-14-58-54.png",
+      picture: QrCodeGeneratorImg,
       technologies: ["React", "HTML5/CSS3", "Firebase", "Jest"],
       githubLink: "https://github.com/giovponce/qr-generator",
       projectLink: "https://qr-generator-df60a.web.app/",
     },
     {
-      id: "3",
+      id: "4",
       title: "Bleiben Note",
       description:
         "Bleiben-Note is German for 'Remember-Note', which takes us back to our signature phrase, 'The app that remembers for you'. Simple to-do app with login features.",
-      picture: "https://i.ibb.co/Y8xJ7sS/Screenshot-2023-06-26-at-15-06-23.png",
+      picture: BleibenNoteImg,
       technologies: ["React", "HTML5/CSS3", "Firebase", "Jest"],
       githubLink: "https://github.com/giovponce/Bleiben-Note",
       projectLink: "https://bleiben-note.web.app/",
