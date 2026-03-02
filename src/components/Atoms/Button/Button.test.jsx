@@ -17,7 +17,7 @@ describe("Button component", () => {
   });
 
   test("calls the onClick function when clicked", () => {
-    const handleClick = jest.fn();
+    const handleClick = vi.fn();
     render(<Button onClick={handleClick}>Click me</Button>);
     const buttonElement = screen.getByRole("button");
     fireEvent.click(buttonElement);
