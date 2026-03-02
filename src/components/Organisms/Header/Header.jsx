@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Header.scss";
 import Link from "../../Atoms/Link/Link";
 import Button from "../../Atoms/Button/Button";
-import SkullLogo from "../../../assets/icons/skull.png";
+import LeafLogo from "../../../assets/icons/leaf.png";
 
 function useScrollDirection() {
   const [scrollDirection, setScrollDirection] = useState(null);
@@ -57,7 +57,7 @@ const Header = () => {
       <div className="header">
         <div className="icon-container">
           <a href="/">
-            <img src={SkullLogo} alt="logo"></img>
+            <img src={LeafLogo} alt="logo"></img>
           </a>
         </div>
         <div className="menuContainer">
@@ -110,7 +110,7 @@ const Header = () => {
       <div className="header">
         <div className="icon-container">
           <a href="/">
-            <img src={SkullLogo} alt="logo"></img>
+            <img src={LeafLogo} alt="logo"></img>
           </a>
         </div>
         <nav className="navbar">
