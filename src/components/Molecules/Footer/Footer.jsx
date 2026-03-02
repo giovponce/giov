@@ -9,7 +9,7 @@ import Mail from "../../../assets/icons/mail";
 
 export default function Footer() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const primaryColor = "#924DF9";
+  const primaryColor = "#52B788";
 
   useEffect(() => {
     const handleResize = () => setWindowWidth(window.innerWidth);
